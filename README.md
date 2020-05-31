@@ -27,11 +27,14 @@ Simple and tiny Back To Top button with no dependencies. Hides when on top, scro
 Add this to `<body>` of your HTML:
 ```html
 <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
-<script>addBackToTop({
-  diameter: 56,
-  backgroundColor: 'rgb(255, 82, 82)',
-  textColor: '#fff'
-})</script>
+<script>
+    addBackToTop({
+        diameter: 56,
+        scrollDuration: 300,
+        backgroundColor: 'rgb(255, 82, 82)',
+        textColor: '#fff'
+    })
+</script>
 ```
 For alternative installation see [INSTALL](https://github.com/vfeskov/vanilla-back-to-top/blob/v7.2.1/INSTALL.md)
 
